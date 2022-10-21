@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- This is Font Fontawesome  -->
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+
+
+
+  <!-- google fonts  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800&family=MuseoModerno:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&family=League+Spartan:wght@200;300;400;500;600;700;800&family=MuseoModerno:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- my style  -->
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $('header').addClass('shadow');
+      }
+      else {
+        $('header').removeClass('shadow');
+      }
+    })
+  </script>
+</head>
+
+<body>
+
+  <!-- header section start =================================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg my-bg">
+      <div class="container-fluid menu-width">
+
+        <a class="navbar-brand" href="#">
+          <h4 class="logo">SoroBindu</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu-bar">
+            <li><a href="#">Home</a></li>
+            <li><a class="active_nav_dropdown" href="#">Services<i class="fa-solid fa-caret-down"></i></a>
+              <ul class="drop-down list-unstyled">
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Computer Vision</a></li>
+                <li><a href="#">Internet Of Things</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <div class="menu-end d-flex">
+            <div class="social-icon">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+            </div>
+            <div class="social-button">
+              <a class="header_btn custom_button" href="#">Free Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- header section end===================================== -->
+  <main>
+
+    <!-- BANNER HERO SECTION START==================================== -->
+
+
+    <section class="hero-area my-bg">
+      <div class="container container-main">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="hero-text">
+              <span>INTUITIVE USER EXPERIENCE</span>
+              <h1>SoroBindu Academy</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit totam, molestias, non mollitia officiis
+                doloremque accusantium eligendi eum ipsum repellat voluptates?</p>
+              <a class="custom_button" href="#">Get started</a>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-img text-end">
+              <img src="https://i.ibb.co/GdY8nXr/02.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- BANNER HERO SECTION END==================================== -->
+
+    <!-- OUR IT CONSULTING SECTION START///////////////////////////////// -->
+
+
+
+    <section class="contasulting-section  py-5">
+      <div class="container container-main">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="consulting-text text-center pt-5">
+              <span class="mini_tag" style="color: #33358c;">WHAT WE DO</span>
+              <h2 class="text-white py-3">Our IT Consulting Cycle</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem totam, dignissimos voluptates
+                porro ratione debitis sit, obcaecati non est commodi? Inventore.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="consulting-item py-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="consulting-card">
+                <span class="consulting-icon"><i class="fa-regular fa-lightbulb-on"></i></span>
+                <p class="we-h">Find New Ideas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                <a href="#"><span class="consulting-card-button"><i class="fa-regular fa-angle-right"></i></span> Learn
+                  More</a>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="consulting-card">
+                <span class="consulting-icon consulting-icon-2"><i class="fa-regular fa-gear"></i></span>
+                <p class="we-h"> Diagnosis & Analysis</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                <a href="#"><span class="consulting-card-button consulting-card-button-2"><i
+                      class="fa-regular fa-angle-right"></i></span> Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="consulting-card">
+                <span class="consulting-icon consulting-icon-3"><i class="fa-light fa-rocket-launch"></i></span>
+                <p class="we-h">Product Release</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                <a href="#"><span class="consulting-card-button consulting-card-button-3"><i
+                      class="fa-regular fa-angle-right"></i></span> Learn More</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-lg-10">
+            <div class="consulting-fotter">
+              <h2>Get a Free Counsultation Now!</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem deserunt veritatis consequuntur
+                quidem praesentium dicta suscipit cupiditate, at cum quae distinctio ad.</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="consulting-footer-wapper text-end">
+              <a class="custom_button consulting_btn" href="#">Contact US</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- OUR IT CONSULTING SECTION END///////////////////////////////// -->
+
+    <!-- SERVICE SECTION START ///////////////////////////////////////-->
+
+    <section class="service-area py-5">
+      <div class="container container-main">
+        <div class="service_top pt-5">
+          <span>OUR SERVICE</span>
+          <h2>Service We Provide</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt labore vero tempore reiciendis.</p>
+        </div>
+
+        <div class="service-footer py-3">
+          <div class="row">
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-regular fa-gear"></i>
+                  <p>Web Development</p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-solid fa-desktop"></i>
+                  <p>Computer Vision</p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-light fa-watch"></i>
+                  <p>Internet Of Things</p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-solid fa-user-group"></i>
+                  <p>Augmented Reality </p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-light fa-globe"></i>
+                  <p>Web Development</p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-4 g-0">
+
+              <div class="service_wrapper">
+                <div class="service-item">
+                  <i class="fa-regular fa-grid-2"></i>
+                  <p>Computer Vision</p>
+                  <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe.</span>
+                </div>
+                <div class="service-arrow">
+                  <i class="fa-light fa-arrow-right"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICE SECTION END ///////////////////////////////////////-->
+
+
+    <!-- FEATURE SECTION START/////////////////////////////////////// -->
+    <section class="features-area py-5">
+      <div class="container-fluid feature_wrapper">
+        <div class="row mx-4">
+          <div class="col-lg-4">
+            <div class="features-img">
+              <img src="https://i.ibb.co/CBx9hsB/01.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="features">
+              <div class="features-text">
+                <span class="mini_tag jost">OUR SERVICE</span>
+                <h2>Our Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim dolor in nulla ultrices,
+                  vitae
+                  malesuada nibh semper. Mauris mollis rutrum tortor, eu ornare nisi. Maecenas pretium sapien iaculis
+                  est
+                  bibendum placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                  himenaeos.</p>
+              </div>
+
+              <div class="features-content">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="features-item d-flex">
+                      <span> <i class="fa-light fa-arrow-right"></i></span>
+                      <div class="feature-item-text">
+                        <h4>Machine Learning</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="features-item d-flex">
+                      <span> <i class="fa-light fa-arrow-right"></i></span>
+                      <div class="feature-item-text">
+                        <h4>Computer Vision</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="features-item d-flex">
+                      <span> <i class="fa-light fa-arrow-right"></i></span>
+                      <div class="feature-item-text">
+                        <h4>Internet of Things</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="features-item d-flex">
+                      <span> <i class="fa-light fa-arrow-right"></i></span>
+                      <div class="feature-item-text">
+                        <h4>Mobile Development</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FEATURE SECTION END/////////////////////////////////////// -->
+
+
+    <!-- BELIVE IN SECTION START ////////////////////////////////////////// -->
+
+
+
+    <section class="believe-area py-5">
+      <div class="container container-main">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="believe-content">
+              <div class="service-top">
+                <span class="mini_tag">PHOLOSOPHY</span>
+                <h2 class="py-3">What We Believe In</h2>
+              </div>
+
+              <div class="believe-tab">
+
+                <nav class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                  <a class="nav-link active first_active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home"
+                    role="tab" aria-controls="nav-home" aria-selected="true">Our Mission </a>
+
+                  <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Our Vision</a>
+
+                  <a class="nav-link" id="our-values-tab" data-bs-toggle="tab" href="#nav-our-values" role="tab"
+                    aria-controls="nav-our-values" aria-selected="false">Our Values</a>
+
+                </nav>
+
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <p class="believe-tab-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor laoreet erat, ac commodo felis fermentum nec. Praesent mattis diam arcu. Duis in tellus erat. Mauris ut arcu in lectus lobortis aliquet. Pellentesque vitae lacus nunc. Cras sed risus sit amet ante pretium tempor. Fusce at erat non nunc egestas sollicitudin at ac sapien. Etiam fermentum eget nunc ac ultrices. Pellentesque in nibh ante.</p>
+
+                    <a href="#"><span class="consulting-card-button belive_card_btn"><i
+                          class="fa-regular fa-angle-right"></i></span> Learn More</a>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <p class="believe-tab-text">Etiam eros dolor, suscipit ut diam ac, rhoncus luctus nisl. Sed consectetur egestas metus, vestibulum venenatis sapien tincidunt vitae. Sed mollis eros ac accumsan tempor. Proin mollis purus nec ligula venenatis, ut sagittis ex placerat. Sed purus felis, lobortis id elementum eu, suscipit at mauris. Phasellus a ipsum vel est ornare dignissim. Donec vel congue dui. Sed eu sapien massa.</p>
+
+                    <a href="#"><span class="consulting-card-button belive_card_btn"><i
+                          class="fa-regular fa-angle-right"></i></span> Learn More</a>
+                  </div>
+
+                  <div class="tab-pane fade" id="nav-our-values" role="tabpanel" aria-labelledby="our-values-tab">
+                    <p class="believe-tab-text">Quisque facilisis quis dolor at placerat. Mauris quis eros fermentum, interdum massa vel, pellentesque diam. Phasellus at molestie odio, eu convallis justo. In hac habitasse platea dictumst. Cras ac porta sem. Nulla aliquam orci dui, vel finibus nisi hendrerit ut. Phasellus fringilla libero quis risus auctor feugiat. Aenean sollicitudin eleifend hendrerit. Duis et rutrum velit.</p>
+
+                    <!-- <a href="#"><span class="wedo-content-button tab-content-button wedo-content-button-3"><i class="fa-regular fa-angle-right"></i></span> Learn More</a> -->
+                    <a href="#"><span class="consulting-card-button belive_card_btn"><i
+                          class="fa-regular fa-angle-right"></i></span> Learn More</a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="believe-img">
+              <img class="img-fluid" style="border-radius: 8px;" src="https://i.ibb.co/GdY8nXr/02.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- BELIVE IN SECTION END ////////////////////////////////////////// -->
+
+
+
+
+
+    <!-- Pricing section start demo///////////////////////////////////// -->
+
+    <div class="pricing-section py-5">
+      <div class="pricing-container container-main">
+        <h2 class="pricing_hero">Pricing Tables</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <!-- card1 start -->
+            <div class="card p-4">
+
+              <div class="pcard_header">
+                <div class="header_text">
+                  <h5>Basic Plane</h5>
+                  <h2>$19.99</h2>
+                  <p>Monthly Pakage</p>
+                </div>
+
+              </div>
+              <div class="pcard_content">
+                <ul class="pcard_list">
+                  <li>25 Analytics Campaign<i class="fa-light fa-angle-down"></i></li>
+                  <li>1,300 Keywords <i class="fa-light fa-angle-down"></i></li>
+                  <li>25 Social Media Reviews<i class="fa-light fa-angle-down"></i></li>
+                  <li>1 Free Optimization<i class="fa-light fa-angle-down"></i></li>
+                  <li>24/7 Support<i class="fa-light fa-angle-down"></i></li>
+                </ul>
+              </div>
+              <div class="pcard_btn">
+                <a href="#" class="custom_button pcarda_btn">Our button</a>
+              </div>
+            </div>
+            <!-- card end -->
+          </div>
+
+          <div class="col-lg-4">
+            <!-- card2 start -->
+            <div class="card card_middle p-4">
+
+              <div class="pcard_header">
+
+                <div class="header_text">
+                  <h5>Basic Plane</h5>
+                  <h2>$29.99</h2>
+                  <p>Monthly Pakage</p>
+
+                </div>
+
+              </div>
+              <div class="pcard_content">
+                <ul class="pcard_list">
+                  <li>25 Analytics Campaign<i class="fa-light fa-angle-down"></i></li>
+                  <li>1,300 Keywords <i class="fa-light fa-angle-down"></i></li>
+                  <li>25 Social Media Reviews<i class="fa-light fa-angle-down"></i></li>
+                  <li>1 Free Optimization<i class="fa-light fa-angle-down"></i></li>
+                  <li>24/7 Support<i class="fa-light fa-angle-down"></i></li>
+                </ul>
+              </div>
+              <div class="pcard_btn">
+                <a href="#" class="custom_button pcarda_btn consulting-card-button-2">Our button</a>
+              </div>
+            </div>
+            <!-- card end -->
+          </div>
+
+
+          <div class="col-lg-4">
+            <!-- card3 start -->
+            <div class="card p-4">
+
+              <div class="pcard_header">
+
+                <div class="header_text">
+                  <h5>Basic Plane</h5>
+                  <h2>$39.99</h2>
+                  <p>Monthly Pakage</p>
+
+                </div>
+
+              </div>
+              <div class="pcard_content">
+                <ul class="pcard_list">
+                  <li>25 Analytics Campaign<i class="fa-light fa-angle-down"></i></li>
+                  <li>1,300 Keywords <i class="fa-light fa-angle-down"></i></li>
+                  <li>25 Social Media Reviews<i class="fa-light fa-angle-down"></i></li>
+                  <li>1 Free Optimization<i class="fa-light fa-angle-down"></i></li>
+                  <li>24/7 Support<i class="fa-light fa-angle-down"></i></li>
+                </ul>
+              </div>
+              <div class="pcard_btn">
+                <a href="#" class="custom_button pcarda_btn consulting-card-button-3">Our button</a>
+              </div>
+            </div>
+            <!-- card end -->
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing section end demo///////////////////////////////////////// -->
+
+
+    <!-- TEAM SECTION START========================== -->
+
+
+
+    <div class="team-seaction py-5">
+      <div class="team_section_hero text-center">
+        <span class="mini_tag jost">OUR TEAM</span>
+        <h2 class="team_hero pt-3">Our Dedicated Team</h2>
+        <p class="jost">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam vel aliquid sapiente earum
+          distinctio quis necessitatibus fugit corrupti dolorum sint.</p>
+      </div>
+      <div class="row mx-3 py-5">
+        <div class="col-lg-2">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face1.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">Mark Flynn</h4>
+              <p class="jost">Digital Marketing</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-2 mt-5">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face2.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">Ann Brown</h4>
+              <p class="jost">Designer</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face3.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">James Doe</h4>
+              <p class="jost">Developer</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 mt-5">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face4.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">Kate Jason</h4>
+              <p class="jost">Manager</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face5.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">Ben Flynn</h4>
+              <p class="jost">Developer</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 mt-5">
+          <div class="team_cardx">
+
+            <div class="team_img">
+              <img src="./img/face6.jpg" alt="">
+              <span class="on"><a href="#"><i class="fa-regular fa-arrow-right-long"></i></a></span>
+            </div>
+
+            <div class="team_text text-center">
+              <h4 class="jost">Olivia Aniston</h4>
+              <p class="jost">Designer</p>
+              <ul class="team_social social-icon">
+                <li class="team_twit"><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                <li class="team_linked"><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ========== FAQ section start================================ -->
+
+    <section class="faq-section">
+      <div class="container-main">
+
+
+        <div class="team_section_hero text-center pb-5">
+          <span class="mini_tag jost">NEED HELP?</span>
+          <h2 class="team_hero pt-3">Top 10 Most Popular FAQ`s</h2>
+          <p class="jost">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam vel aliquid sapiente
+            earum
+            distinctio quis</p>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <h6 class="mb-0"><strong>When should I receive my money?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <h6 class="mb-0"><strong>Why should I subscribe to newsletter?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <h6 class="mb-0"><strong>Why my card payment is failing?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <h6 class="mb-0"><strong>When does pay out?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      <h6 class="mb-0"><strong>How do I become a partner?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      <h6 class="mb-0"><strong>When should I receive my money?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                      <h6 class="mb-0"><strong>Why should I subscribe to newsletter?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                      <h6 class="mb-0"><strong>Why my card payment is failing?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                      <h6 class="mb-0"><strong>When does pay out?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border-0">
+                <div class="header-wrapper">
+                  <div class="hover-bg"></div>
+                  <h2 class="accordion-header" id="flush-headingTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                      <h6 class="mb-0"><strong>How do I become a partner?</strong></h6>
+                    </button>
+                  </h2>
+                </div>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                  data-bs-parent="#accordionFlushExample">
+
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero
+                    luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa
+                    quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                    tortor tristique quis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ========== FAQ section END================================ -->
+    <!-- contact section start demo ===================================-->
+
+    <div class="contact-section
+  py-5">
+      <div class="contact_wrapper container-main">
+        <h2 class="contact_hero">Contact Me</h2>
+        <form action="">
+          <div class="input_wrapper">
+            <div class="row">
+              <div class="col-lg-6 px-0">
+                <input type="text" name="Name" id="" class="form-control radius_input name" placeholder="Your Name"
+                  required>
+              </div>
+              <div class="col-lg-6 px-0">
+                <input type="email" name="email" id="" placeholder="Your Email" class="form-control radius_input email"
+                  required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 px-0">
+                <input type="text" name="website" id="" placeholder="Your Website" class="form-control radius_input"
+                  required>
+                <textarea name="massage" id="" cols="30" rows="5" class="form-control"
+                  placeholder="Your Massage"></textarea>
+              </div>
+            </div>
+            <div class="contact-btn">
+              <button type="submit" class="custom_button contact_btn">Our button</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- contact section end demo ======================================-->
+    <!-- map section demo start ===================================== -->
+    <div class="map_area">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6045.252943019546!2d-73.98510700000001!3d40.748244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2s350%205th%20Ave%2C%20New%20York%2C%20NY%2010118!5e0!3m2!1sen!2sus!4v1666323132959!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- map section demo end ===================================== -->
+  </main>
+  <!-- footer section demo start//////////////////////////////////////// -->
+  <footer>
+    <div class="footer-section pt-4">
+
+      <div class="footer_wrapper container-main">
+        <div class="upper_footer">
+          <h2 class="footer_hero text-center">
+            SoroBindu
+          </h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer_contact d-flex">
+                <div class="footer_social_icon social-icon">
+                  <span class="map_span"><i class="fa-light fa-location-dot"></i></span>
+                </div>
+                <div class="icon_text">
+                  <p>MI Jamestown</p>
+                  <p>146 Kimberly Way</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer_contact d-flex">
+                <div class="footer_social_icon social-icon">
+                  <span class="mail_span"><i class="fa-light fa-envelope"></i></span>
+                </div>
+                <div class="icon_text">
+                  <p>support@yoursite.com</p>
+                  <p>connect@yoursite.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer_contact d-flex">
+                <div class="footer_social_icon social-icon">
+                  <span class="call_span"><i class="fa-light fa-phone"></i></span>
+                </div>
+                <div class="icon_text">
+                  <p>0 (800) 123 45 67</p>
+                  <p>0 (800) 231 54 76</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social_icon_footer">
+            <ul class="social_icon">
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer_nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer_end text-white py-5">
+        <h6 class="jost">
+          &copy;Copyright 2020 SoroBindu - All Rights Reserved
+        </h6>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section demo end//////////////////////////////////////// -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
